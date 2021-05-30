@@ -1,0 +1,120 @@
+@font-face 
+    font-family: 'GIL'
+    src: url('../fonts/GIL.ttf') ///* IE9 Compat Modes */
+    src: url('../fonts/GIL.eot?#iefix') format('embedded-opentype') //* IE6-IE8 */ 
+    src: url('../fonts/GIL.woff2') format('woff2') //* Super Modern Browsers */ 
+    src: url('../fonts/GIL.woff') format('woff') //* Pretty Modern Browsers */ 
+    src: url('../fonts/GIL.ttf') format('truetype') //* Safari, Android, iOS */ 
+    src: url('../fonts/GIL.svg#svgFontName') format('svg') //* Legacy iOS */
+    font-weight: normal
+
+    
+img
+    display: block
+    max-width: 100%
+a
+    display: block
+
+
+@font-face 
+    font-family: 'GIL'
+    src: url('../fonts/GILB.eot') //* IE9 Compat Modes */
+    src: url('../fonts/GILB.eot?#iefix') format('embedded-opentype') //* IE6-IE8 */
+    src: url('../fonts/GILB.woff2') format('woff2') //* Super Modern Browsers */ 
+    src: url('../fonts/GILB.woff') format('woff') //* Pretty Modern Browsers */ 
+    src: url('../fonts/GILB.ttf') format('truetype') //* Safari, Android, iOS */ 
+    src: url('../fonts/GILB.svg#svgFontName') format('svg') //* Legacy iOS */
+    font-weight: bold
+
+body
+    color: #000
+    font-weight: 400
+    font-family: "GIL", sans-serif
+
+
+p
+    color: #8c8f94
+    font-size: 20px
+
+
+h1, h2, h3, h4, h5, h6
+    font-weight: bold
+    color: #242f51
+    line-height: 1.2em
+
+
+a
+    color: black
+    transition: all .5s ease
+    text-decoration: none
+
+
+a:hover
+    text-decoration: none
+    color: #4d5157
+
+ul, li
+    display: block
+    padding: 0
+    margin: 0
+
+.btn
+    background-color: #267df4
+    transition: all 0.5s ease
+    border-radius: 21px
+    padding: 5px 25px 5px 15px
+    color: #fff
+    border: 1px solid #007bff
+    width: auto
+    display: block
+.app__btn
+    display: flex
+    width: 132px
+
+.app__btn:before
+    content: ''
+    display: block
+    background: url("../img/apple_icon.svg")
+    width: 16px
+    height: 20px
+    margin-right: auto
+
+.app__btn:hover
+    padding-left: 25px
+
+.btn:hover
+    color: #fff
+
+.btn:active
+    border-bottom: 1px solid
+
+.btn_sec
+    transition: all 0.5s ease
+    font-weight: bold
+    border-radius: 25px
+    padding: 12px 42px
+    border: 1px solid
+    color: #000
+
+.btn_sec:hover
+    color: #fff
+    background-color: #267df4
+    border-color: #267df4
+
+.offer__btn
+    display: flex
+    width: 205px
+
+.offer__btn:before
+    content: ''
+    background: url("../img/play_video.svg")
+    width: 10px
+    height: 10px
+    margin-top: 8px
+    margin-right: auto
+    transition: 0.5s ease
+
+.offer__btn:hover:before
+    content: ''
+    background: url("../img/play_video_w.svg")
+    color: white
